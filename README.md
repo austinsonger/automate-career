@@ -8,7 +8,7 @@
 
 
 
-# Consolidated Code
+# Code
 
 ## File: /workspaces/jobwright/config.py
 
