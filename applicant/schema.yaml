@@ -1,0 +1,24 @@
+Personal:
+  type: object
+  properties:
+    name: {type: string}
+    last_name: {type: string}
+    date_of_birth: {type: string, format: date}
+    country: {type: string}
+    phone_prefix: {type: string, format: phone_prefix}
+    phone: {type: string, format: phone}
+    address: {type: string}
+    city: {type: string}
+    state: {type: string}
+    zip_code: {type: string, pattern: "^[0-9]{5,10}$"}
+    github: {type: string, format: uri}
+    inkedin: {type: string, format: uri}
+    Do_you_speak_English: {type: string, enum: [Yes, No]}
+    Are you at least 18 years or older: {type: string, enum: [Yes, No]}
+    Do you hold professional: {type: string}
+    Sex: {type: string, enum: [Male, Female]}
+    gender: {type: string, enum: [Male, Female]}
+    Willing and able to complete a drug screen and criminal background check: {type: string, enum: [Yes, No]}
+    Are you willing to consent to a: {type: string, enum: [Yes, No]}
+    Are you willing to undergo a background check: {type: string, enum: [Yes, No]}
+    Have you been convicted of or pleaded guilty: {type: string, enum: [Yes, No]}
