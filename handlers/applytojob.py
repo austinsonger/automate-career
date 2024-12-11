@@ -1,4 +1,4 @@
-async def handle_lever_application(page, data):
+async def handle_applytojob_application(page, data):
     try:
         await page.fill('input[name="name"]', data["applicant"]["name"])
         await page.fill('input[name="email"]', data["applicant"]["email"])
@@ -6,6 +6,6 @@ async def handle_lever_application(page, data):
         await page.set_input_files('input[name="resume"]', data["applicant"]["resume_path"])
         await page.click('button[type="submit"]')
         await asyncio.sleep(2)
-        print("Application submitted successfully on Lever.")
+        print("Application submitted successfully on applytojob.")
     except Exception as e:
-        print(f"Error on Lever: {e}")
+        print(f"Error on applytojob: {e}")
