@@ -1,0 +1,59 @@
+citizenship:
+  type: object
+  properties:
+    are_you_a_US_born_or_naturalized_citizen:
+      type: string
+      enum: [Yes, No]
+    do_you_require_sponsorship_to_work:
+      type: string
+      enum: [Yes, No]
+    do_you_now_or_will_you_in_the_future_require_sponsorship_as_a_condition_of_employment:
+      type: string
+      enum: [Yes, No]
+    do_you_now_or_will_you_in_the_future_need_sponsorship_from_an_employer_in_order_to_obtain_extend_or_renew_your_authorization_to_work_in_the_united_states:
+      type: string
+      enum: [Yes, No]
+    will_you_require_any_sponsorship_to_work_in_the_usa_now_or_in_the_future:
+      type: string
+      enum: [Yes, No]
+    will_you_now_or_in_the_future_require_sponsorship:
+      type: string
+      enum: [Yes, No]
+    are_you_legally_authorized_to_work:
+      type: string
+      enum: [Yes, No]
+    are_you_based_in_united_states:
+      type: string
+      enum: [Yes, No]
+    are_you_authorized_to_work_in_the_following_country:
+      type: string
+      enum: [Yes, No]
+    are_you_authorized_to_work_in_the_united_states:
+      type: string
+      enum: [Yes, No]
+    require_sponsorship_for_employment_visa_status:
+      type: string
+      enum: [Yes, No]
+    h_1b_visa_status:
+      type: string
+      enum: [Yes, No]
+    will_you_now_or_in_the_future_require_visa:
+      type: string
+      enum: [Yes, No]
+    are_you_currently_eligible_to_work_for:
+      type: string
+      enum: [Yes, No]
+    are_you_legally_eligible_to_work_in_the_united_states:
+      type: string
+      enum: [Yes, No]
+    whats_your_citizenship_employment_eligibility:
+      type: string
+      enum: [Yes, No]
+    do_you_have_us_work_authorization:
+      type: string
+      enum: [Yes, No]
+    are_you_legally_entitled_to_work_in_the_country_jurisdiction_in_which_you_are_applying:
+      type: string
+      enum: [Yes, No]
+
+
