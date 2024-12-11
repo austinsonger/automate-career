@@ -2,4 +2,25 @@ applicant:
   name: John Doe
   email: john.doe@example.com
   phone: 1234567890
-  resume_path: /path/to/resume.pdf
+  first_name: {type: string}
+  last_name: {type: string}
+  date_of_birth: {type: string, format: date}
+  country: {type: string}
+  phone_prefix: {type: string, format: phone_prefix}
+  phone: {type: string, format: phone}
+  address: {type: string}
+  city: {type: string}
+  state: {type: string}
+  zip_code: {type: string, pattern: "^[0-9]{5,10}$"}
+  github: {type: string, format: uri}
+  inkedin: {type: string, format: uri}
+  Do_you_speak_English: {type: string, enum: [Yes, No]}
+  Are you at least 18 years or older: {type: string, enum: [Yes, No]}
+  Do you hold professional: {type: string}
+  Sex: {type: string, enum: [Male, Female]}
+  gender: {type: string, enum: [Male, Female]}
+  willing_and_able_to_complete_a_drug_screen_and_criminal_background_check: {type: string, enum: [Yes, No]}
+  are_you_willing_to_consent_to_a: {type: string, enum: [Yes, No]}
+  are_you_willing_to_undergo_a_background_check: {type: string, enum: [Yes, No]}
+  have_you_been_convicted_of: {type: string, enum: [Yes, No]}
+  resume_path: 
