@@ -1,0 +1,96 @@
+questions:
+  type: array
+  items:
+    - question: "Tell Me About Yourself"
+      past: 
+        type: string
+      current: 
+        type: string
+      future: 
+        type: string
+    - question: "What are you looking for in a new role?"
+      answer:
+        type: string
+    - question: "What is your greatest weakness?"
+      answer:
+        type: string
+    - question: "What is your greatest strength?"
+      answer:
+        type: string
+    - question: "What language are you most comfortable using and why"
+      answer:
+        type: string
+    - question: "How do you keep your technology skills current"
+      answer:
+        type: string
+    - question: "Tell me about a time when you accomplished a team goal. Why do you think your team was successful?"
+      answer:
+        type: string
+    - question: "Tell me about a time when you had to overcome resistance to your plan."
+      answer:
+        type: string
+    - question: "How would you convince other teams to support your idea?"
+      answer:
+        type: string
+    - question: "How would you convince people to agree with your strategy when they don’t?"
+      answer:
+        type: string
+    - question: "How do you manage disagreements with managers?"
+      answer:
+        type: string
+    - question: "Tell me about a time where you had to convince someone of something."
+      answer:
+        type: string
+    - question: "Tell me about a time there was a serious conflict on your team. How did you resolve it?"
+      answer:
+        type: string
+    - question: "Time when you came up with a new approach to a problem."
+      answer:
+        type: string
+    - question: "Describe a project that required input from people at different levels in the organization."
+      situation:
+        type: string
+      approach:
+        type: string
+      result:
+        type: string
+    - question: "Encountered a problem and how you resolved it."
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Juggle multiple important projects."
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Most innovative new idea that you have implemented?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "What project have you done that you're most proud of?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Can you explain how you have worked on building and maintaining effective security controls?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Can you describe your experience in leading a security and compliance team?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Can you provide an example of how you fostered a culture of security awareness across your organization?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Can you explain how you integrated security and compliance measures into the product development and deployment processes?"
+      answer:
+        type: string
+      follow_up:
+        type: string
