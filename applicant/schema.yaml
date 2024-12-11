@@ -48,18 +48,7 @@ applicant:
     gender:
       type: string
       enum: [Male, Female]
-    willing_and_able_to_complete_a_drug_screen_and_criminal_background_check:
-      type: string
-      enum: [Yes, No]
-    are_you_willing_to_consent_to_a:
-      type: string
-      enum: [Yes, No]
-    are_you_willing_to_undergo_a_background_check:
-      type: string
-      enum: [Yes, No]
-    have_you_been_convicted_of:
-      type: string
-      enum: [Yes, No]
+
 
 job_details:
   type: object
@@ -137,16 +126,74 @@ legal:
       type: string
     reasonable_accommodation:
       type: string
+    willing_and_able_to_complete_a_drug_screen_and_criminal_background_check:
+      type: string
+      enum: [Yes, No]
+    are_you_willing_to_consent_to_a:
+      type: string
+      enum: [Yes, No]
+    are_you_willing_to_undergo_a_background_check:
+      type: string
+      enum: [Yes, No]
+    have_you_been_convicted_of:
+      type: string
+      enum: [Yes, No]
+    eu_work_authorization:
+      type: string
+      enum: [Yes, No]
+    us_work_authorization:
+      type: string
+      enum: [Yes, No]
+    requires_us_visa:
+      type: string
+      enum: [Yes, No]
+    requires_us_sponsorship:
+      type: string
+      enum: [Yes, No]
+    requires_eu_visa:
+      type: string
+      enum: [Yes, No]
+    legally_allowed_to_work_in_eu:
+      type: string
+      enum: [Yes, No]
+    legally_allowed_to_work_in_us:
+      type: string
+      enum: [Yes, No]
+    requires_eu_sponsorship:
+      type: string
+      enum: [Yes, No]
+    canada_work_authorization:
+      type: string
+      enum: [Yes, No]
+    requires_canada_visa:
+      type: string
+      enum: [Yes, No]
+    legally_allowed_to_work_in_canada:
+      type: string
+      enum: [Yes, No]
+    requires_canada_sponsorship:
+      type: string
+      enum: [Yes, No]
+    uk_work_authorization:
+      type: string
+      enum: [Yes, No]
+    requires_uk_visa:
+      type: string
+      enum: [Yes, No]
+    legally_allowed_to_work_in_uk:
+      type: string
+      enum: [Yes, No]
+    requires_uk_sponsorship:
+      type: string
+      enum: [Yes, No]
+
+
 
 questions:
   type: array
   items:
     - question: "Tell Me About Yourself"
-      past:
-        type: string
-      current:
-        type: string
-      future:
+      answer:
         type: string
     - question: "What are you looking for in a new role?"
       answer:
@@ -186,13 +233,6 @@ questions:
         type: string
     - question: "Time when you came up with a new approach to a problem."
       answer:
-        type: string
-    - question: "Describe a project that required input from people at different levels in the organization."
-      situation:
-        type: string
-      approach:
-        type: string
-      result:
         type: string
     - question: "Encountered a problem and how you resolved it."
       answer:
@@ -242,7 +282,15 @@ projects:
         type: string
       results:
         type: string
+    - question: "Describe a project that required input from people at different levels in the organization."
+      situation:
+        type: string
+      approach:
+        type: string
+      result:
+        type: string
 
+        
 common_competencies:
   type: array
   items:
