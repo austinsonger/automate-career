@@ -1,0 +1,24 @@
+legal:
+  type: object
+  properties:
+    veteran_status:
+      type: string
+      example: "I am a protected veteran"
+    information_you_submit_will_be_kept_confidential_and_may_only_be_used_in_accordance_with_the_provisions_of_applicable_laws_executive_orders_and_regulations:
+      type: string
+      example: "I understand"
+    disability:
+      type: string
+      example: "No, I Don't Have A Disability, Or A History/Record Of Having A Disability"
+    ethnic_background:
+      type: string
+      example: "I choose not to provide race information."
+    please_describe_your_ethnicity:
+      type: string
+      example: "White"
+    veterans_invitation_to_self_identify:
+      type: string
+      example: "I am a protected veteran"
+    reasonable_accommodation:
+      type: string
+      example: "I understand"
