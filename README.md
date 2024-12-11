@@ -1,6 +1,4 @@
-# automate-career
-
-## To-Do List for Automated Job Application System Using Playwright
+## To-Do List
 
 ### Environment Setup
 - [ ] Install Python 3.8 or higher.
