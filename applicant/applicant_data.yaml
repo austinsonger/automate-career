@@ -1,89 +1,24 @@
 applicant:
-  type: object
-  properties:
-    name:
-      type: string
-      example: "John Doe"
-    email:
-      type: string
-      example: "john.doe@example.com"
-    phone:
-      type: string
-      example: "1234567890"
-    first_name:
-      type: string
-      example: "John"
-    last_name:
-      type: string
-      example: "Doe"
-    date_of_birth:
-      type: string
-      format: date
-      example: "1980-01-01"
-    country:
-      type: string
-      example: "USA"
-    phone_prefix:
-      type: string
-      format: phone_prefix
-      example: "+1"
-    phone:
-      type: string
-      format: phone
-      example: "123-456-7890"
-    address:
-      type: string
-      example: "1234 Elm Street"
-    city:
-      type: string
-      example: "Anytown"
-    state:
-      type: string
-      example: "CA"
-    zip_code:
-      type: string
-      pattern: "^[0-9]{5,10}$"
-      example: "90210"
-    github:
-      type: string
-      format: uri
-      example: "https://github.com/johndoe"
-    linkedin:
-      type: string
-      format: uri
-      example: "https://www.linkedin.com/in/johndoe"
-    do_you_speak_english:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    are_you_at_least_18_years_or_older:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    do_you_hold_professional:
-      type: string
-      example: "Software Engineer"
-    sex:
-      type: string
-      enum: [Male, Female]
-      example: "Male"
-    gender:
-      type: string
-      enum: [Male, Female]
-      example: "Male"
-    willing_and_able_to_complete_a_drug_screen_and_criminal_background_check:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    are_you_willing_to_consent_to_a:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    are_you_willing_to_undergo_a_background_check:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    have_you_been_convicted_of:
-      type: string
-      enum: [Yes, No]
-      example: "No"
+  name: "John Doe"
+  email: "john.doe@example.com"
+  phone: "123-456-7890"
+  first_name: "John"
+  last_name: "Doe"
+  date_of_birth: "1980-01-01"
+  country: "USA"
+  phone_prefix: "+1"
+  address: "1234 Elm Street"
+  city: "Anytown"
+  state: "CA"
+  zip_code: "90210"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  do_you_speak_english: "Yes"
+  are_you_at_least_18_years_or_older: "Yes"
+  do_you_hold_professional: "Software Engineer"
+  sex: "Male"
+  gender: "Male"
+  willing_and_able_to_complete_a_drug_screen_and_criminal_background_check: "Yes"
+  are_you_willing_to_consent_to_a: "Yes"
+  are_you_willing_to_undergo_a_background_check: "Yes"
+  have_you_been_convicted_of: "No"
