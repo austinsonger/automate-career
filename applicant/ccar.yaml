@@ -1,0 +1,31 @@
+projects:
+  type: array
+  items:
+    - title: "Project 1/Situation"
+      description:
+        type: string
+      challenges:
+        type: string
+      solutions:
+        type: string
+      results:
+        type: string
+    - title: "Project 1/Situation"
+      description:
+        type: string
+      challenges:
+        type: string
+      solutions:
+        type: string
+      results:
+        type: string
+    - title: "Project 1/Situation"
+      description:
+        type: string
+      challenges:
+        type: string
+      solutions:
+        type: string
+      results:
+        type: string
+        
