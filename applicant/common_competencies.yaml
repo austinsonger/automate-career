@@ -1,27 +1,17 @@
 common_competencies:
-  type: array
-  items:
-    - competency: "Problem-Solving Skills"
-      description:
-        type: string
-    - competency: "Attention to Detail"
-      description:
-        type: string
-    - competency: "Interpersonal Skills"
-      description:
-        type: string
-    - competency: "Adaptability and Flexibility"
-      description:
-        type: string
-    - competency: "Time Management"
-      description:
-        type: string
-    - competency: "Continuous Learning and Improvement"
-      description:
-        type: string
-    - competency: "Ethical Judgment"
-      description:
-        type: string
-    - competency: "Team Collaboration"
-      description:
-        type: string
+  - competency: "Problem-Solving Skills"
+    description: "Describe how you demonstrate your problem-solving skills."
+  - competency: "Attention to Detail"
+    description: "Describe how you ensure attention to detail in your work."
+  - competency: "Interpersonal Skills"
+    description: "Describe how you use your interpersonal skills in the workplace."
+  - competency: "Adaptability and Flexibility"
+    description: "Provide examples of how you have shown adaptability and flexibility."
+  - competency: "Time Management"
+    description: "Explain your approach to managing time effectively."
+  - competency: "Continuous Learning and Improvement"
+    description: "Describe how you engage in continuous learning and improvement."
+  - competency: "Ethical Judgment"
+    description: "Provide examples of how you apply ethical judgment in your decisions."
+  - competency: "Team Collaboration"
+    description: "Describe how you contribute to team collaboration."
