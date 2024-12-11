@@ -1,0 +1,27 @@
+common_competencies:
+  type: array
+  items:
+    - competency: "Problem-Solving Skills"
+      description:
+        type: string
+    - competency: "Attention to Detail"
+      description:
+        type: string
+    - competency: "Interpersonal Skills"
+      description:
+        type: string
+    - competency: "Adaptability and Flexibility"
+      description:
+        type: string
+    - competency: "Time Management"
+      description:
+        type: string
+    - competency: "Continuous Learning and Improvement"
+      description:
+        type: string
+    - competency: "Ethical Judgment"
+      description:
+        type: string
+    - competency: "Team Collaboration"
+      description:
+        type: string
