@@ -1,5 +1,8 @@
 # Jobwright
 
+Required:
+- https://playwright.dev
+
 
 ## To-Do List
 
