@@ -1,96 +1,65 @@
 questions:
-  type: array
-  items:
-    - question: "Tell Me About Yourself"
-      past: 
-        type: string
-      current: 
-        type: string
-      future: 
-        type: string
-    - question: "What are you looking for in a new role?"
-      answer:
-        type: string
-    - question: "What is your greatest weakness?"
-      answer:
-        type: string
-    - question: "What is your greatest strength?"
-      answer:
-        type: string
-    - question: "What language are you most comfortable using and why"
-      answer:
-        type: string
-    - question: "How do you keep your technology skills current"
-      answer:
-        type: string
-    - question: "Tell me about a time when you accomplished a team goal. Why do you think your team was successful?"
-      answer:
-        type: string
-    - question: "Tell me about a time when you had to overcome resistance to your plan."
-      answer:
-        type: string
-    - question: "How would you convince other teams to support your idea?"
-      answer:
-        type: string
-    - question: "How would you convince people to agree with your strategy when they don’t?"
-      answer:
-        type: string
-    - question: "How do you manage disagreements with managers?"
-      answer:
-        type: string
-    - question: "Tell me about a time where you had to convince someone of something."
-      answer:
-        type: string
-    - question: "Tell me about a time there was a serious conflict on your team. How did you resolve it?"
-      answer:
-        type: string
-    - question: "Time when you came up with a new approach to a problem."
-      answer:
-        type: string
-    - question: "Describe a project that required input from people at different levels in the organization."
-      situation:
-        type: string
-      approach:
-        type: string
-      result:
-        type: string
-    - question: "Encountered a problem and how you resolved it."
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "Juggle multiple important projects."
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "Most innovative new idea that you have implemented?"
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "What project have you done that you're most proud of?"
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "Can you explain how you have worked on building and maintaining effective security controls?"
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "Can you describe your experience in leading a security and compliance team?"
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "Can you provide an example of how you fostered a culture of security awareness across your organization?"
-      answer:
-        type: string
-      follow_up:
-        type: string
-    - question: "Can you explain how you integrated security and compliance measures into the product development and deployment processes?"
-      answer:
-        type: string
-      follow_up:
-        type: string
+  - question: "Tell Me About Yourself"
+    past: "Describe your background briefly."
+    current: "Discuss your current role and responsibilities."
+    future: "Outline your professional goals."
+
+  - question: "What are you looking for in a new role?"
+    answer: "Specify the key aspects you're looking for in a new role."
+
+  - question: "What is your greatest weakness?"
+    answer: "Identify and explain a personal weakness."
+
+  - question: "What is your greatest strength?"
+    answer: "Describe your main strengths."
+
+  - question: "What language are you most comfortable using and why"
+    answer: "State your preferred programming language and reasons."
+
+  - question: "How do you keep your technology skills current?"
+    answer: "Explain your methods for staying up-to-date with technology."
+
+  - question: "Tell me about a time when you accomplished a team goal. Why do you think your team was successful?"
+    answer: "Detail a successful team project and why it succeeded."
+
+  - question: "Tell me about a time when you had to overcome resistance to your plan."
+    answer: "Describe a challenge to your plan and how you overcame it."
+
+  - question: "How would you convince other teams to support your idea?"
+    answer: "Explain your approach to gaining support from other teams."
+
+  - question: "How would you convince people to agree with your strategy when they don’t?"
+    answer: "Discuss your strategy for persuading others."
+
+  - question: "How do you manage disagreements with managers?"
+    answer: "Describe how you handle conflicts with superiors."
+
+  - question: "Tell me about a time where you had to convince someone of something."
+    answer: "Provide an example of your persuasive skills in action."
+
+  - question: "Tell me about a time there was a serious conflict on your team. How did you resolve it?"
+    answer: "Detail a major team conflict and your resolution strategy."
+
+  - question: "Time when you came up with a new approach to a problem."
+    answer: "Explain a situation where you innovated a solution."
+
+  - question: "Describe a project that required input from people at different levels in the organization."
+    situation: "Describe the project context and need for diverse input."
+    approach: "Explain how you coordinated input."
+    result: "Summarize the outcome of the project."
+
+  - question: "Encountered a problem and how you resolved it."
+    answer: "Describe the problem and your solution."
+    follow_up: "Discuss any ongoing impacts."
+
+  - question: "Juggle multiple important projects."
+    answer: "Detail your approach to managing several projects at once."
+    follow_up: "Reflect on the success and learning points."
+
+  - question: "Most innovative new idea that you have implemented?"
+    answer: "Describe the idea and its implementation."
+    follow_up: "Evaluate the impact of this innovation."
+
+  - question: "What project have you done that you're most proud of?"
+    answer: "Discuss a project that stands out in your career."
+    follow_up: "Explain why this project was significant to you."
