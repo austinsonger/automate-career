@@ -1,64 +1,17 @@
 company:
-  type: object
-  properties:
-    were_you_referred:
-      type: string
-      enum: [Yes, No]
-      example: "No"
-    are_you_ok_to_go_through:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    are_you_a_current_employee_of:
-      type: string
-      enum: [Yes, No]
-      example: "No"
-    have_you_previously_interviewed_with:
-      type: string
-      enum: [Yes, No]
-      example: "No"
-    have_you_previously_been_employed_by:
-      type: string
-      enum: [Yes, No]
-      example: "No"
-    would_you_like_to_receive_notifications:
-      type: string
-      enum: [Yes, No]
-      example: "Yes, I would like to receive notifications about new jobs"
-    have_you_received_or_do_you_plan_on_receiving_the_covid_vaccine:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    are_you_willing_to_be_in_the_office:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    receiving_text_messages:
-      type: string
-      example: "No, I do not agree to receive text messages"
-    by_applying_to_this:
-      type: string
-      example: "I understand"
-    this_is_a_position_in_support_of_a_federal_government_contract_which_requires_us_citizenship_if_hired_will_you_be_able_to_provide_proof_that_you_meet_this_requirement:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    do_you_have_friends_family_members_or_colleagues_that_are_currently_employed_with:
-      type: string
-      enum: [Yes, No]
-      example: "No"
-    do_you_agree:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
-    are_you_currently_an_employee_of:
-      type: string
-      enum: [Yes, No]
-      example: "No"
-    how_many_years_of_related_experience_do_you_have:
-      type: string
-      example: "8"
-    have_you_completed_any_post_secondary_education_in_a_related_field:
-      type: string
-      enum: [Yes, No]
-      example: "Yes"
+  were_you_referred: "No"
+  are_you_ok_to_go_through: "Yes"
+  are_you_a_current_employee_of: "No"
+  have_you_previously_interviewed_with: "No"
+  have_you_previously_been_employed_by: "No"
+  would_you_like_to_receive_notifications: "Yes, I would like to receive notifications about new jobs"
+  have_you_received_or_do_you_plan_on_receiving_the_covid_vaccine: "Yes"
+  are_you_willing_to_be_in_the_office: "Yes"
+  receiving_text_messages: "No, I do not agree to receive text messages"
+  by_applying_to_this: "I understand"
+  this_is_a_position_in_support_of_a_federal_government_contract_which_requires_us_citizenship_if_hired_will_you_be_able_to_provide_proof_that_you_meet_this_requirement: "Yes"
+  do_you_have_friends_family_members_or_colleagues_that_are_currently_employed_with: "No"
+  do_you_agree: "Yes"
+  are_you_currently_an_employee_of: "No"
+  how_many_years_of_related_experience_do_you_have: "8"
+  have_you_completed_any_post_secondary_education_in_a_related_field: "Yes"
