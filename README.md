@@ -88,7 +88,7 @@ def load_applicant_data(filepath):
     return data
 
 ````
-````
+
 
 ## File: /workspaces/jobwright/utils/browser.py
 
