@@ -1,31 +1,18 @@
 projects:
-  type: array
-  items:
-    - title: "Project 1/Situation"
-      description:
-        type: string
-      challenges:
-        type: string
-      solutions:
-        type: string
-      results:
-        type: string
-    - title: "Project 1/Situation"
-      description:
-        type: string
-      challenges:
-        type: string
-      solutions:
-        type: string
-      results:
-        type: string
-    - title: "Project 1/Situation"
-      description:
-        type: string
-      challenges:
-        type: string
-      solutions:
-        type: string
-      results:
-        type: string
-        
+  - title: "Project 1/Situation"
+    description: "Provide the project description here."
+    challenges: "List key challenges encountered."
+    solutions: "Describe solutions implemented."
+    results: "Summarize the outcomes."
+
+  - title: "Project 2/Situation"
+    description: "Provide the project description here."
+    challenges: "List key challenges encountered."
+    solutions: "Describe solutions implemented."
+    results: "Summarize the outcomes."
+
+  - title: "Project 3/Situation"
+    description: "Provide the project description here."
+    challenges: "List key challenges encountered."
+    solutions: "Describe solutions implemented."
+    results: "Summarize the outcomes."
