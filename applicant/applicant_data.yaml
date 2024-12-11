@@ -15,8 +15,8 @@ applicant:
   github: {type: string, format: uri}
   inkedin: {type: string, format: uri}
   Do_you_speak_English: {type: string, enum: [Yes, No]}
-  Are you at least 18 years or older: {type: string, enum: [Yes, No]}
-  Do you hold professional: {type: string}
+  are_you_at_least_18_years_or_older: {type: string, enum: [Yes, No]}
+  do_you_hold_professional: {type: string}
   sex: {type: string, enum: [Male, Female]}
   gender: {type: string, enum: [Male, Female]}
   willing_and_able_to_complete_a_drug_screen_and_criminal_background_check: {type: string, enum: [Yes, No]}
