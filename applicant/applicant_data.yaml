@@ -14,7 +14,7 @@ applicant:
   zip_code: {type: string, pattern: "^[0-9]{5,10}$"}
   github: {type: string, format: uri}
   inkedin: {type: string, format: uri}
-  Do_you_speak_English: {type: string, enum: [Yes, No]}
+  do_you_speak_english: {type: string, enum: [Yes, No]}
   are_you_at_least_18_years_or_older: {type: string, enum: [Yes, No]}
   do_you_hold_professional: {type: string}
   sex: {type: string, enum: [Male, Female]}
@@ -23,4 +23,19 @@ applicant:
   are_you_willing_to_consent_to_a: {type: string, enum: [Yes, No]}
   are_you_willing_to_undergo_a_background_check: {type: string, enum: [Yes, No]}
   have_you_been_convicted_of: {type: string, enum: [Yes, No]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   resume_path: 
