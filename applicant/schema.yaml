@@ -1,24 +1,272 @@
-Personal:
+applicant:
   type: object
   properties:
-    name: {type: string}
-    last_name: {type: string}
-    date_of_birth: {type: string, format: date}
-    country: {type: string}
-    phone_prefix: {type: string, format: phone_prefix}
-    phone: {type: string, format: phone}
-    address: {type: string}
-    city: {type: string}
-    state: {type: string}
-    zip_code: {type: string, pattern: "^[0-9]{5,10}$"}
-    github: {type: string, format: uri}
-    inkedin: {type: string, format: uri}
-    Do_you_speak_English: {type: string, enum: [Yes, No]}
-    Are you at least 18 years or older: {type: string, enum: [Yes, No]}
-    Do you hold professional: {type: string}
-    Sex: {type: string, enum: [Male, Female]}
-    gender: {type: string, enum: [Male, Female]}
-    Willing and able to complete a drug screen and criminal background check: {type: string, enum: [Yes, No]}
-    Are you willing to consent to a: {type: string, enum: [Yes, No]}
-    Are you willing to undergo a background check: {type: string, enum: [Yes, No]}
-    Have you been convicted of or pleaded guilty: {type: string, enum: [Yes, No]}
+    name:
+      type: string
+    email:
+      type: string
+    phone:
+      type: string
+    first_name:
+      type: string
+    last_name:
+      type: string
+    date_of_birth:
+      type: string
+      format: date
+    country:
+      type: string
+    phone_prefix:
+      type: string
+      format: phone_prefix
+    address:
+      type: string
+    city:
+      type: string
+    state:
+      type: string
+    zip_code:
+      type: string
+      pattern: "^[0-9]{5,10}$"
+    github:
+      type: string
+      format: uri
+    linkedin:
+      type: string
+      format: uri
+    do_you_speak_english:
+      type: string
+      enum: [Yes, No]
+    are_you_at_least_18_years_or_older:
+      type: string
+      enum: [Yes, No]
+    do_you_hold_professional:
+      type: string
+    sex:
+      type: string
+      enum: [Male, Female]
+    gender:
+      type: string
+      enum: [Male, Female]
+    willing_and_able_to_complete_a_drug_screen_and_criminal_background_check:
+      type: string
+      enum: [Yes, No]
+    are_you_willing_to_consent_to_a:
+      type: string
+      enum: [Yes, No]
+    are_you_willing_to_undergo_a_background_check:
+      type: string
+      enum: [Yes, No]
+    have_you_been_convicted_of:
+      type: string
+      enum: [Yes, No]
+
+job_details:
+  type: object
+  properties:
+    how_would_you_like_to_work_with_us:
+      type: string
+    what_type_of_position_are_you_seeking:
+      type: string
+    salary_expectation:
+      type: string
+    salary_requirement:
+      type: string
+    desired_compensation:
+      type: string
+
+company:
+  type: object
+  properties:
+    were_you_referred:
+      type: string
+      enum: [Yes, No]
+    are_you_ok_to_go_through:
+      type: string
+      enum: [Yes, No]
+    are_you_a_current_employee_of:
+      type: string
+      enum: [Yes, No]
+    have_you_previously_interviewed_with:
+      type: string
+      enum: [Yes, No]
+    have_you_previously_been_employed_by:
+      type: string
+      enum: [Yes, No]
+    would_you_like_to_receive_notifications:
+      type: string
+      enum: [Yes, No]
+    have_you_received_or_do_you_plan_on_receiving_the_covid_vaccine:
+      type: string
+      enum: [Yes, No]
+    are_you_willing_to_be_in_the_office:
+      type: string
+      enum: [Yes, No]
+    this_is_a_position_in_support_of_a_federal_government_contract_which_requires_us_citizenship_if_hired_will_you_be_able_to_provide_proof_that_you_meet_this_requirement:
+      type: string
+      enum: [Yes, No]
+    do_you_have_friends_family_members_or_colleagues_that_are_currently_employed_with:
+      type: string
+      enum: [Yes, No]
+    do_you_agree:
+      type: string
+      enum: [Yes, No]
+    are_you_currently_an_employee_of:
+      type: string
+      enum: [Yes, No]
+    how_many_years_of_related_experience_do_you_have:
+      type: string
+    have_you_completed_any_post_secondary_education_in_a_related_field:
+      type: string
+      enum: [Yes, No]
+
+legal:
+  type: object
+  properties:
+    veteran_status:
+      type: string
+    information_you_submit_will_be_kept_confidential_and_may_only_be_used_in_accordance_with_the_provisions_of_applicable_laws_executive_orders_and_regulations:
+      type: string
+    disability:
+      type: string
+    ethnic_background:
+      type: string
+    please_describe_your_ethnicity:
+      type: string
+    veterans_invitation_to_self_identify:
+      type: string
+    reasonable_accommodation:
+      type: string
+
+questions:
+  type: array
+  items:
+    - question: "Tell Me About Yourself"
+      past:
+        type: string
+      current:
+        type: string
+      future:
+        type: string
+    - question: "What are you looking for in a new role?"
+      answer:
+        type: string
+    - question: "What is your greatest weakness?"
+      answer:
+        type: string
+    - question: "What is your greatest strength?"
+      answer:
+        type: string
+    - question: "What language are you most comfortable using and why"
+      answer:
+        type: string
+    - question: "How do you keep your technology skills current"
+      answer:
+        type: string
+    - question: "Tell me about a time when you accomplished a team goal. Why do you think your team was successful?"
+      answer:
+        type: string
+    - question: "Tell me about a time when you had to overcome resistance to your plan."
+      answer:
+        type: string
+    - question: "How would you convince other teams to support your idea?"
+      answer:
+        type: string
+    - question: "How would you convince people to agree with your strategy when they don’t?"
+      answer:
+        type: string
+    - question: "How do you manage disagreements with managers?"
+      answer:
+        type: string
+    - question: "Tell me about a time where you had to convince someone of something."
+      answer:
+        type: string
+    - question: "Tell me about a time there was a serious conflict on your team. How did you resolve it?"
+      answer:
+        type: string
+    - question: "Time when you came up with a new approach to a problem."
+      answer:
+        type: string
+    - question: "Describe a project that required input from people at different levels in the organization."
+      situation:
+        type: string
+      approach:
+        type: string
+      result:
+        type: string
+    - question: "Encountered a problem and how you resolved it."
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Juggle multiple important projects."
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Most innovative new idea that you have implemented?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "What project have you done that you're most proud of?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+    - question: "Can you describe your experience in leading a team?"
+      answer:
+        type: string
+      follow_up:
+        type: string
+
+
+projects:
+  type: array
+  items:
+    - title: "Project 1"
+      description:
+        type: string
+      challenges:
+        type: string
+      solutions:
+        type: string
+      results:
+        type: string
+    - title: "Project 1"
+      description:
+        type: string
+      challenges:
+        type: string
+      solutions:
+        type: string
+      results:
+        type: string
+
+common_competencies:
+  type: array
+  items:
+    - competency: "Problem-Solving Skills"
+      description:
+        type: string
+    - competency: "Attention to Detail"
+      description:
+        type: string
+    - competency: "Interpersonal Skills"
+      description:
+        type: string
+    - competency: "Adaptability and Flexibility"
+      description:
+        type: string
+    - competency: "Time Management"
+      description:
+        type: string
+    - competency: "Continuous Learning and Improvement"
+      description:
+        type: string
+    - competency: "Ethical Judgment"
+      description:
+        type: string
+    - competency: "Team Collaboration"
+      description:
+        type: string
