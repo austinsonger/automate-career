@@ -17,7 +17,7 @@ applicant:
   Do_you_speak_English: {type: string, enum: [Yes, No]}
   Are you at least 18 years or older: {type: string, enum: [Yes, No]}
   Do you hold professional: {type: string}
-  Sex: {type: string, enum: [Male, Female]}
+  sex: {type: string, enum: [Male, Female]}
   gender: {type: string, enum: [Male, Female]}
   willing_and_able_to_complete_a_drug_screen_and_criminal_background_check: {type: string, enum: [Yes, No]}
   are_you_willing_to_consent_to_a: {type: string, enum: [Yes, No]}
