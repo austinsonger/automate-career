@@ -1,3 +1,4 @@
+import pandas as pd
 import asyncio
 from utils.browser import init_browser
 from config import JOB_APPLICATION_PLATFORMS
@@ -9,8 +10,7 @@ async def apply_to_job(job_url, data):
     playwright, browser, page = await init_browser()
     try:
         await page.goto(job_url)
-        await asyncio.sleep(2)  # Wait for page to load
-
+        await asyncio.sleep(2)  
         for platform, pattern in JOB_APPLICATION_PLATFORMS.items():
             if re.match(pattern, job_url):
                 print(f"Matched platform: {platform}")
@@ -29,9 +29,15 @@ async def apply_to_job(job_url, data):
         await playwright.stop()
 
 async def main():
-    job_url = "https://jobs.lever.co/examplejob"
-    applicant_data = load_applicant_data('applicant/applicant_data.yaml')  # Update the path accordingly
-    await apply_to_job(job_url, applicant_data)
+    
+    df = pd.read_excel('jobs/jobsURL.xlsx') 
+    job_urls = df['Job URLs'].tolist()
+
+    applicant_data = load_applicant_data('applicant/applicant_data.yaml')  # Ensure the path to YAML file is correct
+
+    for job_url in job_urls:
+        print(f"Applying to: {job_url}")
+        await apply_to_job(job_url, applicant_data)
 
 if __name__ == "__main__":
     asyncio.run(main())
