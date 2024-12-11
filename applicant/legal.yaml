@@ -1,24 +1,28 @@
 legal:
-  type: object
-  properties:
-    veteran_status:
-      type: string
-      example: "I am a protected veteran"
-    information_you_submit_will_be_kept_confidential_and_may_only_be_used_in_accordance_with_the_provisions_of_applicable_laws_executive_orders_and_regulations:
-      type: string
-      example: "I understand"
-    disability:
-      type: string
-      example: "No, I Don't Have A Disability, Or A History/Record Of Having A Disability"
-    ethnic_background:
-      type: string
-      example: "I choose not to provide race information."
-    please_describe_your_ethnicity:
-      type: string
-      example: "White"
-    veterans_invitation_to_self_identify:
-      type: string
-      example: "I am a protected veteran"
-    reasonable_accommodation:
-      type: string
-      example: "I understand"
+  veteran_status: "I am a protected veteran"
+  information_you_submit_will_be_kept_confidential_and_may_only_be_used_in_accordance_with_the_provisions_of_applicable_laws_executive_orders_and_regulations: "I understand"
+  disability: "No, I Don't Have A Disability, Or A History/Record Of Having A Disability"
+  ethnic_background: "I choose not to provide race information."
+  please_describe_your_ethnicity: "White"
+  veterans_invitation_to_self_identify: "I am a protected veteran"
+  reasonable_accommodation: "I understand"
+  willing_and_able_to_complete_a_drug_screen_and_criminal_background_check: "Yes"
+  are_you_willing_to_consent_to_a: "Yes"
+  are_you_willing_to_undergo_a_background_check: "Yes"
+  have_you_been_convicted_of: "No"
+  eu_work_authorization: "Yes"
+  us_work_authorization: "Yes"
+  requires_us_visa: "No"
+  requires_us_sponsorship: "No"
+  requires_eu_visa: "No"
+  legally_allowed_to_work_in_eu: "Yes"
+  legally_allowed_to_work_in_us: "Yes"
+  requires_eu_sponsorship: "No"
+  canada_work_authorization: "Yes"
+  requires_canada_visa: "No"
+  legally_allowed_to_work_in_canada: "Yes"
+  requires_canada_sponsorship: "No"
+  uk_work_authorization: "Yes"
+  requires_uk_visa: "No"
+  legally_allowed_to_work_in_uk: "Yes"
+  requires_uk_sponsorship: "No"
