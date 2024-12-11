@@ -5,9 +5,6 @@
 - [ ] Set up a virtual environment using `venv` or `conda`.
 - [ ] Install Playwright with `pip install playwright` and run `playwright install` to install browser binaries.
 
-### Project Structure
-- [ ] Organize the project directory with folders for handlers, utils, configs, and tests.
-- [ ] Create initial Python script files and modules (main.py, config.py, utils, handlers).
 
 ### Code Development
 - [ ] Implement `init_browser()` in `utils/browser.py` for initializing Playwright browser instances.
