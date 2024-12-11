@@ -1,18 +1,6 @@
 job_details:
-  type: object
-  properties:
-    how_would_you_like_to_work_with_us:
-      type: string
-      example: "W2 Employee"
-    what_type_of_position_are_you_seeking:
-      type: string
-      example: "Governance, Risk, and Compliance"
-    salary_expectation:
-      type: string
-      example: "175,000.00"
-    salary_requirement:
-      type: string
-      example: "175,000.00"
-    desired_compensation:
-      type: string
-      example: "175,000.00"
+  how_would_you_like_to_work_with_us: "W2 Employee"
+  what_type_of_position_are_you_seeking: "Governance, Risk, and Compliance"
+  salary_expectation: "175,000.00"
+  salary_requirement: "175,000.00"
+  desired_compensation: "175,000.00"
