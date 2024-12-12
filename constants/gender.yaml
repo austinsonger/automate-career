@@ -1,0 +1,7 @@
+# Gender Selection: Please confirm or change the selected option.
+genderselect:
+  default: "Decline to self-identify"
+  options:
+    - "Male"
+    - "Female"
+    - "Decline to self-identify"

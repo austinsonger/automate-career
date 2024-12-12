@@ -1,0 +1,7 @@
+# VeteranSelect: Please confirm or change the selected option.
+VeteranSelect:
+  default: "I identify as one or more of the classifications of protected veteran listed above"
+  options:
+    - "I identify as one or more of the classifications of protected veteran listed above"
+    - "I am not a protected veteran"
+    - "I decline to self-identify for protected veteran status"

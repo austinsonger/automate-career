@@ -1,0 +1,22 @@
+{
+  "name": "jobwright",
+  "version": "1.0.0",
+  "description": "Required: - https://playwright.dev",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinsonger/jobwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinsonger/jobwright/issues"
+  },
+  "homepage": "https://github.com/austinsonger/jobwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  }
+}

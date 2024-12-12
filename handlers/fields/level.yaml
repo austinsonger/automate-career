@@ -1,0 +1,39 @@
+page4.get_by_label("Resume/CV ✱ATTACH RESUME/").click()
+page4.get_by_label("Resume/CV ✱ATTACH RESUME/").set_input_files("Resume.pdf")
+page4.get_by_label("Full name✱").click().fill(applicant_data[""])
+page4.get_by_label("Email✱").click().fill(applicant_data[""])
+page4.get_by_label("Phone ✱").click().fill(applicant_data[""])
+page4.get_by_label("Current location ✱No location").click()
+page4.get_by_label("Current company").click().fill(applicant_data[""])
+page4.get_by_label("LinkedIn URL").click().fill(applicant_data[""])
+page4.get_by_label("Twitter URL").click().fill(applicant_data[""])
+page4.get_by_label("GitHub URL").click().fill(applicant_data[""])
+page4.get_by_label("Portfolio URL").click().fill(applicant_data[""]).fill(applicant_data[""])
+page4.get_by_label("Other website").click().fill(applicant_data[""])
+
+page4.locator("div").filter(has_text=re.compile(r"^Full Legal Name✱$")).first.click()
+page4.locator("input[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field0\\]\"]").click()
+
+page4.get_by_text("Please provide your mailing").click()
+page4.locator("input[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field1\\]\"]").click()
+
+page4.get_by_text("How did you find out about").click()
+page4.locator("select[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field2\\]\"]").select_option("LinkedIn")
+
+page4.locator("li").filter(has_text="Are you legally authorized to").get_by_label("Yes").check()
+page4.locator("li").filter(has_text="Will you now, or in the").get_by_label("No").check()
+page4.locator("li").filter(has_text="Are you currently employed?✱").get_by_label("Yes").check()
+
+page4.locator('text="What is your desired salary?"').locator('input[type="text"]').first().click().fill(applicant_data[""])
+
+page4.get_by_text("I certify that all of the").click()
+page4.locator("input[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field9\\]\"]").check()
+
+page4.get_by_text("Upon future offer acceptance").click()
+page4.locator("input[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field10\\]\"]").check()
+
+page4.get_by_text("I AGREE, AND IT IS MY INTENT").click()
+page4.locator("input[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field11\\]\"]").check()
+
+page4.get_by_text("Full Name✱", exact=True).click()
+page4.locator("input[name=\"cards\\[6c628159-65a8-482e-b263-c1dfd9a6fc0c\\]\\[field12\\]\"]").click()

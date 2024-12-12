@@ -17,11 +17,11 @@ def load_job_urls(excel_file):
     jobs = [{"company": row["Company"], "job_id": row["JobID"]} for _, row in df.iterrows()]
     return jobs
 
-# Function to handle Workable application
-async def handle_workable_application(page, applicant_data, company, job_id):
+# Function to handle PLATFORM application
+async def handle_PLACEHOLDER_application(page, applicant_data, company, job_id):
     try:
         # Build the job URL dynamically
-        job_url = f"https://apply.workable.com/{company}/j/{job_id}/"
+        job_url = f"https://URL_PLACEHOLDER/{company}/j/{job_id}/"
         await page.goto(job_url)
 
         # Click "Apply for this job" button
@@ -62,7 +62,7 @@ async def handle_workable_application(page, applicant_data, company, job_id):
         await asyncio.sleep(2)  # Optional delay to ensure submission is complete
         print(f"Application submitted successfully for company {company}, job ID {job_id}.")
     except Exception as e:
-        print(f"Error on Workable for company {company}, job ID {job_id}: {e}")
+        print(f"Error on PLATFORM for company {company}, job ID {job_id}: {e}")
 
 # Main function
 async def main():
@@ -79,7 +79,7 @@ async def main():
 
         # Loop through jobs and apply for each
         for job in job_list:
-            await handle_workable_application(page, applicant_data, job["company"], job["job_id"])
+            await handle_PLACEHOLDER_application(page, applicant_data, job["company"], job["job_id"])
 
         await browser.close()
 
